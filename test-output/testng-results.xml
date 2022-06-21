@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-17T20:29:00 IST" name="Default suite" finished-at="2022-06-17T20:29:06 IST" duration-ms="6320">
+    <groups>
+    </groups>
+    <test started-at="2022-06-17T20:29:00 IST" name="Default test" finished-at="2022-06-17T20:29:06 IST" duration-ms="6320">
+      <class name="Test.LoginPageTest">
+        <test-method is-config="true" signature="extentReports()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:00 IST" name="extentReports" finished-at="2022-06-17T20:29:00 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReports -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:00 IST" name="browser" finished-at="2022-06-17T20:29:02 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="clickOnLoginWithoutDataTest()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:02 IST" name="clickOnLoginWithoutDataTest" finished-at="2022-06-17T20:29:03 IST" duration-ms="776" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [User ID should be minimum 6] but found [User ID should be minimum 6 characters.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [User ID should be minimum 6] but found [User ID should be minimum 6 characters.]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Test.LoginPageTest.clickOnLoginWithoutDataTest(LoginPageTest.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginWithoutDataTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:03 IST" name="closeBrowser" finished-at="2022-06-17T20:29:03 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnLoginWithoutDataTest status=FAILURE method=LoginPageTest.clickOnLoginWithoutDataTest()[pri:0, instance:Test.LoginPageTest@21282ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:03 IST" name="browser" finished-at="2022-06-17T20:29:04 IST" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="forgotPasswordLinkTest()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:04 IST" name="forgotPasswordLinkTest" finished-at="2022-06-17T20:29:04 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkTest -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:04 IST" name="browser" finished-at="2022-06-17T20:29:06 IST" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:04 IST" name="closeBrowser" finished-at="2022-06-17T20:29:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPasswordLinkTest status=SUCCESS method=LoginPageTest.forgotPasswordLinkTest()[pri:0, instance:Test.LoginPageTest@21282ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="loginWithValidCredentialsTest()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:06 IST" name="loginWithValidCredentialsTest" finished-at="2022-06-17T20:29:06 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:06 IST" name="closeBrowser" finished-at="2022-06-17T20:29:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentialsTest status=SUCCESS method=LoginPageTest.loginWithValidCredentialsTest()[pri:0, instance:Test.LoginPageTest@21282ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="signupLinkTest()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:06 IST" name="signupLinkTest" finished-at="2022-06-17T20:29:06 IST" depends-on-methods="Test.LoginPageTest.clickOnLoginWithoutDataTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginPageTest.signupLinkTest()[pri:0, instance:Test.LoginPageTest@21282ed8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginPageTest.signupLinkTest()[pri:0, instance:Test.LoginPageTest@21282ed8] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupLinkTest -->
+        <test-method is-config="true" signature="flushResult()[pri:0, instance:Test.LoginPageTest@21282ed8]" started-at="2022-06-17T20:29:06 IST" name="flushResult" finished-at="2022-06-17T20:29:06 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushResult -->
+      </class> <!-- Test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
